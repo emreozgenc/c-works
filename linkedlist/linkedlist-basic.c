@@ -29,7 +29,14 @@ Node * addNode(Node * r, int x) {
 	return r;	
 }
 
+/* ## Print function ## */
+void printList(Node * r) {
+	while(r != NULL) {
+		printf("%d\n", r->x);
+		r = r->next;
+	}
+}
+
 int main() {
 	Node * root = NULL;
-	
 }
